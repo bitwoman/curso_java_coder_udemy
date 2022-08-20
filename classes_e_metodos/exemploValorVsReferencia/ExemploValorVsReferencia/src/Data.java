@@ -1,6 +1,17 @@
 public class Data {
     //Atributos
-    public int dia, mes, ano;
+    public int dia, mes, ano; //0
+
+    //quando você define uma constante, tem que definir ela até o construtor ser criado
+
+    //byte, short, int, long -> valor padrão é 0
+    //float, double -> valor padrão é 0.0
+    //boolean -> valor padrão é false
+    //char -> valor padrão é '\u0000'
+
+    //Variáveis fora do método, são inicializadas por padrão, mas no método, não (variáveis locais).
+    //Objetos recebem valor o padrão null (não aponta para nenhum endereço de memória) 
+
 
     //Construtor Default
     Data(){
