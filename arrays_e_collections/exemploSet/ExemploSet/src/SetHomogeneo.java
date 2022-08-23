@@ -25,5 +25,17 @@ public class SetHomogeneo {
         for(String candidato:listaTreeSet){
             System.out.println(candidato);
         }
+
+
+        //Exemplo com inteiro
+        Set<Integer> numeros = new HashSet<>(); //não é necessário esse segundo, chamado diamond <>, pode ficar vazio
+        numeros.add(1); //Ele só aceitará Integer, pois foi especificado o valor no momento de instanciação
+        numeros.add(2);
+        numeros.add(120);
+        numeros.add(6);
+
+        for(int n: numeros){
+            System.out.println(n);
+        }
     }
 }
