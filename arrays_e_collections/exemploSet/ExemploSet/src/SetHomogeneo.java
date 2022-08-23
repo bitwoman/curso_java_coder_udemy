@@ -5,6 +5,8 @@ import java.util.TreeSet;
 public class SetHomogeneo {
     public static void main(String[] args) {
         
+        //Generics
+
         Set<String> listaSet = new HashSet<String>(); //não é necessário esse segundo, chamado diamond <>, pode ficar vazio
         listaSet.add("Ana"); //Ele só aceitará String, pois foi especificado o valor no momento de instanciação
         listaSet.add("Carlos");
@@ -15,7 +17,7 @@ public class SetHomogeneo {
             System.out.println(candidato);
         }
 
-        //Sortedset também faz parte, e tem ordenação
+        //SortedSet também faz parte, e tem ordenação
 
         //TreeSet garante a ordem de inserção dos dados
         Set<String> listaTreeSet = new TreeSet<>();
