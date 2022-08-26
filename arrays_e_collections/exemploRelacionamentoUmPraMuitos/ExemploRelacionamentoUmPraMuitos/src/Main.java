@@ -11,5 +11,9 @@ public class Main {
 
         System.out.println(compra1.itens.size());
         System.out.println(compra1.obterValorTotal());
+
+        //Bidireção
+        double total = compra1.itens.get(0).compra.obterValorTotal();
+        System.out.println("O total é: " + total);
     }
 }
