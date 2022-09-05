@@ -1,4 +1,7 @@
-public class Main {
+import outropacote.Civic;
+import outropacote.Ferrari;
+
+public class MainHeranca2 {
     public static void main(String[] args) throws Exception {
        
         //Instancias das classes

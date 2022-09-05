@@ -1,17 +1,18 @@
+package outropacote;
 public class Carro {
     
     //Atributos
-    final int VELOCIDADE_MAXIMA;
-    int velocidadeAtual = 0;
-    int delta = 5;
+    public final int VELOCIDADE_MAXIMA;
+    public int velocidadeAtual;
+    public int delta = 5;
 
     //Construtor
-    Carro(int velocidadeMaxima){
+    protected Carro(int velocidadeMaxima){
         VELOCIDADE_MAXIMA = velocidadeMaxima;
     }
 
     //Método para acelerar o carro
-    void acelerar(){
+    public void acelerar(){
         if(velocidadeAtual + delta > VELOCIDADE_MAXIMA){
             velocidadeAtual = VELOCIDADE_MAXIMA;
         }else{
@@ -20,7 +21,7 @@ public class Carro {
     }
 
     //Método para frear o carro
-    void frear(){
+    public void frear(){
         if(velocidadeAtual != 0){
             if(velocidadeAtual >= delta){
                 velocidadeAtual -= delta;
