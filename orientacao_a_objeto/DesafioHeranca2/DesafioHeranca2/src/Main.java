@@ -14,6 +14,7 @@ public class Main {
         
         carroCivic.acelerar(); //+5
         carroFerrari.acelerar(); //+15
+        carroFerrari.ligarTurbo();
 
         System.out.println("Civic está em " + carroCivic.velocidadeAtual + "km");
         System.out.println("Ferrari está em " + carroFerrari.velocidadeAtual + "km\n");
